@@ -10,7 +10,8 @@ gem 'sqlite3'
 gem 'haml'
 
 group :development, :test do
-  gem 'debugger'
+#  gem 'debugger'
+  gem 'ruby-debug19', :platforms => :ruby
 end
 
 # Gems used only for assets and not required
