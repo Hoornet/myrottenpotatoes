@@ -1,4 +1,6 @@
 Myrottenpotatoes::Application.routes.draw do
+  get "movies/show"
+
   get "movies/index"
 
   # The priority is based upon order of creation:
