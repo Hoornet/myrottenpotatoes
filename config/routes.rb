@@ -1,12 +1,15 @@
 Myrottenpotatoes::Application.routes.draw do
-  get "movies/show"
 
-  get "movies/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
-  resource :movies
-  root :to => redirect('/movies')
+  resources :movies
+
+
+
+ # get "movies/index"
+ # get "movies/show"
+
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
@@ -54,7 +57,8 @@ Myrottenpotatoes::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  #root :to => 'movies#index'
+  root :to => redirect('/movies')
 
   # See how all your routes lay out with "rake routes"
 
