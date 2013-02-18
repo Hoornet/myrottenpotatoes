@@ -5,12 +5,13 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+
 
 gem 'haml'
 
 group :development, :test do
 #  gem 'debugger'
+  gem 'sqlite3'
   gem 'ruby-debug19', :platforms => :ruby
 
   gem 'database_cleaner' # to clear Cucumber's test database between runs
@@ -23,6 +24,9 @@ group :test do
   gem 'cucumber-rails-training-wheels' # some pre-fabbed step definitions
 end
 
+group :development do
+  gem 'pg'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
