@@ -3,9 +3,10 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 gem 'haml'
 
-gem 'sqlite3'
+
 group :development, :test do
 #  gem 'debugger'
+  gem 'sqlite3'
 
   gem 'ruby-debug19', :platforms => :ruby
 
