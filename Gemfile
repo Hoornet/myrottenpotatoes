@@ -11,7 +11,7 @@ gem 'haml'
 
 group :development, :test do
 #  gem 'debugger'
-  gem 'sqlite3'
+#  gem 'sqlite3'
   gem 'ruby-debug19', :platforms => :ruby
 
   gem 'database_cleaner' # to clear Cucumber's test database between runs
