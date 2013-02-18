@@ -24,7 +24,7 @@ group :test do
   gem 'cucumber-rails-training-wheels' # some pre-fabbed step definitions
 end
 
-group :development do
+group :production do
   gem 'pg'
 end
 
