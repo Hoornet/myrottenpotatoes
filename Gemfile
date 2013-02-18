@@ -6,7 +6,7 @@ gem 'haml'
 
 group :development, :test do
 #  gem 'debugger'
-  gem 'sqlite3'
+#  gem 'sqlite3'
 
   gem 'ruby-debug19', :platforms => :ruby
 
