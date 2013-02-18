@@ -4,7 +4,7 @@ gem 'rails', '3.2.12'
 gem 'haml'
 
 group :development do
-  gem 'sqlite3', :platform => :ruby
+  gem 'sqlite3'#, :platform => :ruby
 end
 
 group :development, :test do
